@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Evaluacion_1.Controllers
+
+namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
