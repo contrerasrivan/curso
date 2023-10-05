@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mio\\MVC\\Evaluacion_1\\Evaluacion_1.csproj": {}
+    "D:\\Mio\\curso\\Evaluacion_1\\Evaluacion_1.csproj": {}
   },
   "projects": {
-    "D:\\Mio\\MVC\\Evaluacion_1\\Evaluacion_1.csproj": {
+    "D:\\Mio\\curso\\Evaluacion_1\\Evaluacion_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mio\\MVC\\Evaluacion_1\\Evaluacion_1.csproj",
+        "projectUniqueName": "D:\\Mio\\curso\\Evaluacion_1\\Evaluacion_1.csproj",
         "projectName": "Evaluacion_1",
-        "projectPath": "D:\\Mio\\MVC\\Evaluacion_1\\Evaluacion_1.csproj",
-        "packagesPath": "C:\\Users\\Iván\\.nuget\\packages\\",
-        "outputPath": "D:\\Mio\\MVC\\Evaluacion_1\\obj\\",
+        "projectPath": "D:\\Mio\\curso\\Evaluacion_1\\Evaluacion_1.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\Mio\\curso\\Evaluacion_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iván\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -38,6 +39,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,7 @@
+D:\Mio\curso\WcfModelsCars\bin\Debug\WcfModelsCars.dll.config
+D:\Mio\curso\WcfModelsCars\bin\Debug\WcfModelsCars.dll
+D:\Mio\curso\WcfModelsCars\bin\Debug\WcfModelsCars.pdb
+D:\Mio\curso\WcfModelsCars\obj\Debug\WcfModelsCars.csproj.AssemblyReference.cache
+D:\Mio\curso\WcfModelsCars\obj\Debug\WcfModelsCars.csproj.CoreCompileInputs.cache
+D:\Mio\curso\WcfModelsCars\obj\Debug\WcfModelsCars.dll
+D:\Mio\curso\WcfModelsCars\obj\Debug\WcfModelsCars.pdb

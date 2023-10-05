@@ -1,5 +1,6 @@
 ﻿using Evaluacion_1.Models;
 using Microsoft.AspNetCore.Mvc;
+using ServiceReference1;
 using System.Diagnostics;
 
 
@@ -7,15 +8,11 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public async Task<IActionResult> Index()
         {
-            _logger = logger;
-        }
+            var services = new ServiceClient();
 
-        public IActionResult Index()
-        {
+            var carsmodel = await services.GetModelsCarsAsync(int.MinValue);
             return View();
         }
 
